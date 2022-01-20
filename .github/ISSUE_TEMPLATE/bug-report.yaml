@@ -30,14 +30,21 @@ body:
     validations:
       required: false
 
-  - type: input
+  - type: textarea
     id: environment
     attributes:
       label: Environment 
       description: |
         Please provide information about Blender and BlenderKit versions, operating system etc.
-        You can get the info by running command in command line:
-        `blender -b --verbose 0 --python-expr "import bpy;import blenderkit;print('\n\n>>> VERSION INFO, please copy to bug report:\n\nBlenderKit version:',blenderkit.bl_info['version'],'\nBlender version:',bpy.app.version_string, bpy.app.build_date, bpy.app.build_platform,'\n\n<<<')"`
+        You can get the info by running following command in command line:
+        `blender -b --python-expr "import bpy;import blenderkit;print('\n\n>>> VERSION INFO, please copy to bug report:\n\nBlenderKit version:',blenderkit.bl_info['version'],'\nBlender version:',bpy.app.version_string, bpy.app.build_date, bpy.app.build_platform,'\n\n<<<')"`
+      value: |
+        - BlenderKit version: 
+        - Blender version:
+        - OS:
+        - ...
+
+      render: markdown
 
   - type: textarea
     id: additional-info
