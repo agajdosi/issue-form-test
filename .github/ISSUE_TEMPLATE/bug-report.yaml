@@ -1,0 +1,61 @@
+name: Bug Report
+description: Report bug, crash, problem...
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting a bug! You help us to improve BlenderKit.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      description: Please try to describe here what the bug/crash/problem is about.
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs and/or Screenshots
+      description: If possible please provide a log and/or screenshot of the problem.
+    validations:
+      required: false
+
+  - type: input
+    id: addon-version
+    attributes:
+      label: Addon version
+      description: Please copy and paste version of the addon.
+
+  - type: input
+    id: blender-version
+    attributes:
+      label: Blender version
+      description: Please copy and paste version of the addon.
+    validations:
+      required: false
+
+  - type: input
+    id: os-info
+    attributes:
+      label: Operating System
+      description: Please tell us on what OS and architecture the issue appeared
+    validations:
+      required: false
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected behavior
+      description: What you expected to happen.
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional information
+      description: More information about the issue. Where you behind VPN?
+    validations:
+      required: false
