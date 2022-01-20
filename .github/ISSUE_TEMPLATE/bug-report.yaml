@@ -36,13 +36,18 @@ body:
       label: Environment 
       description: |
         Please provide information about Blender and BlenderKit versions, operating system etc.
-        You can get the info by running following command in command line:
+        
+        Through command line: you can get the version info by running following command in command line:
         `blender -b --python-expr "import bpy;import blenderkit;print('\n\n>>> VERSION INFO, please copy to bug report:\n\nBlenderKit version:',blenderkit.bl_info['version'],'\nBlender version:',bpy.app.version_string, bpy.app.build_date, bpy.app.build_platform,'\n\n<<<')"`
+
+        Through GUI:
+        1. addon version: in Blender click on: `EDIT -> Preferences -> Addons`, search for BlenderKit and expand its menu, which will show you the version of addon.
+        2. Blender version: in Blender click on: `Blender Icon (left from FILE) -> About Blender` which will show you the version of Blender.
       value: |
         - BlenderKit version: 
         - Blender version: 
-        - Operating system: 
-        ...
+        - Operating system:
+        - additional specifics?
 
   - type: textarea
     id: additional-info
