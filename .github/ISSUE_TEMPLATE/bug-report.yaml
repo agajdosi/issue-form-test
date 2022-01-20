@@ -40,11 +40,9 @@ body:
         `blender -b --python-expr "import bpy;import blenderkit;print('\n\n>>> VERSION INFO, please copy to bug report:\n\nBlenderKit version:',blenderkit.bl_info['version'],'\nBlender version:',bpy.app.version_string, bpy.app.build_date, bpy.app.build_platform,'\n\n<<<')"`
       value: |
         - BlenderKit version: 
-        - Blender version:
-        - OS:
-        - ...
-
-      render: markdown
+        - Blender version: 
+        - Operating system: 
+        ...
 
   - type: textarea
     id: additional-info
