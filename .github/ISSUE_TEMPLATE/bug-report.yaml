@@ -33,8 +33,8 @@ body:
     validations:
       required: false
 
-- type: markdown
-  value: "How to toggle system console in Blender: ![How to toggle system console in Blender.](https://raw.githubusercontent.com/agajdosi/issue-form-test/main/.github/ISSUE_TEMPLATE/toggle-system-console.png)"
+  - type: markdown
+    value: "How to toggle system console in Blender: ![How to toggle system console in Blender.](https://raw.githubusercontent.com/agajdosi/issue-form-test/main/.github/ISSUE_TEMPLATE/toggle-system-console.png)"
 
   - type: textarea
     id: environment
