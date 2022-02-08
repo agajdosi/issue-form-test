@@ -35,7 +35,10 @@ body:
 
   - type: markdown
     attributes:
-      value: "![How to toggle system console in Blender.](https://raw.githubusercontent.com/agajdosi/issue-form-test/main/.github/ISSUE_TEMPLATE/toggle-system-console.png)"
+      value: |
+        <p align="center">
+          <img width="460" src="https://raw.githubusercontent.com/agajdosi/issue-form-test/main/.github/ISSUE_TEMPLATE/toggle-system-console.png">
+        </p>
 
   - type: textarea
     id: environment
