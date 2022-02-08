@@ -37,10 +37,7 @@ body:
     attributes:
       value: |
         <p align="center">
-          <figure>
-            <img width="460" alt="To enable system console click CTRL+ALT+C or go to menu - Window - Toggle System Console" src="https://raw.githubusercontent.com/agajdosi/issue-form-test/main/.github/ISSUE_TEMPLATE/toggle-system-console.png">
-            <figcaption>How to toggle system console in Blender.</figcaption>
-          </figure>
+          <img width="460" alt="To enable system console click CTRL+ALT+C or go to menu - Window - Toggle System Console" src="https://raw.githubusercontent.com/agajdosi/issue-form-test/main/.github/ISSUE_TEMPLATE/toggle-system-console.png">
         </p>
 
   - type: textarea
